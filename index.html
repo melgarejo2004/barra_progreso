@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto con Barra de Progreso</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Proyecto Progreso</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#progress">Progreso</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="container" style="margin-top: 70px;">
+        <div class="jumbotron text-center">
+            <h1>Proyecto con Barra de Progreso</h1>
+            <p>Ejemplo de una página web con una barra de progreso utilizando Bootstrap 3.</p>
+        </div>
+
+        <section id="about" class="text-center">
+            <h2>Sobre mí</h2>
+            <p>Aquí puedes agregar una breve descripción sobre ti.</p>
+        </section>
+
+        <section id="progress" class="text-center">
+            <h2>Progreso</h2>
+            <p>Ejemplo de una barra de progreso básica:</p>
+            <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                    70% Completo
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="text-center">
+            <h2>Contacto</h2>
+            <p>Información de contacto.</p>
+        </section>
+    </div>
+
+    <footer class="text-center">
+        <p>&copy; 2024 Proyecto Progreso. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
